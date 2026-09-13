@@ -1,11 +1,13 @@
 import { Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { AbilityRollerComponent } from './ability-roller/ability-roller.component';
 import { ClassDetailComponent } from './class-detail/class-detail.component';
 import { ClassesComponent } from './classes/classes.component';
 import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'roll/:sides', component: AbilityRollerComponent },
   { path: 'classes', component: ClassesComponent },
   { path: 'classes/:id', component: ClassDetailComponent },
   {

@@ -17,6 +17,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
           Home
         </a>
         <a routerLink="/classes" routerLinkActive="active">Classes</a>
+        <a routerLink="/roll/6" routerLinkActive="active">Ability Roller</a>
         <a routerLink="/about" routerLinkActive="active">About</a>
       </nav>
     </header>
